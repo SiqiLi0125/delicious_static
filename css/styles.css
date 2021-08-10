@@ -1,0 +1,591 @@
+
+body{
+  font-family: 'Montserrat';
+  margin: 20px;
+
+  /* overflow-x: hidden; */
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+
+  font-weight: 600;
+  size:3.5rem;
+  line-height: 1.5;
+  font-size: 50px;
+
+}
+
+h2{
+
+  font-weight: lighter;
+  font-size: 3rem;
+  line-height:1.5;
+  text-align: center;
+  color: #155263;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  padding-top: 5%;
+}
+
+h3{
+
+  font-weight: 700;
+  font-size:1.4rem;
+
+
+}
+p{
+  color: #aaa;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: inherit;
+  line-height: 40px;
+
+
+}
+.textprofile{
+  text-align: left;
+}
+
+.tableresearch{
+  padding: 5% 10%;
+}
+
+#title {
+  background-color: #fff;
+  color: #aaaaaa;
+
+
+
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  size:3.5rem;
+  line-height: 1.5;
+  font-size: 45px;
+  margin-top: 100px;
+  /* text-shadow: 2px 2px #ff0000; */
+  letter-spacing: 2px;
+  text-shadow: 0 0 200px #EC7700;
+
+
+
+}
+/* .banner-text{
+
+    margin-bottom: 20px;
+
+    letter-spacing: 5px;
+  } */
+
+.container-fluid{
+  padding:2% 15% 1%;
+
+}
+
+
+/* navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-portfolio{
+  padding:0;
+}
+
+.navbar-text{
+  color:#aaaaaa;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  /* text-shadow: 0 0 70px #FF9A3C; */
+
+
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  color:#2C2D34;
+
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  color: #2C2D34;
+
+
+}
+/* download buttons */
+.download-button{
+  margin:15% 3% 5% 0;
+}
+/* title image */
+
+.title-image{
+  width:50%;
+  margin-left: 120px;
+  margin-right: 120px;
+
+
+}
+
+
+.btn-outline-warning{
+  color: #EC7700;
+  font-weight: 30px;
+
+
+}
+
+
+.button {
+  width: 300px;
+  height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 1000;
+  color: #aaa;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #FF9234;
+  box-shadow: 0px 15px 20px rgba(242, 120, 0, 0.4);
+  color: #fff;
+  transform: translateY(-7px);}
+
+
+/* prototype  */
+.final-prototype{
+  padding: 0 18%;
+}
+.delicious{
+  width: 30%;
+  margin-left: 30%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+
+}
+.research_workflow{
+  padding: 5% 18%;
+  width:100%;
+
+}
+.introduction{
+  text-align: center;
+  color: #155263;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  padding-top: 5%;
+
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  color: #aaa;
+  border-width: 5px;
+  width: 6%;
+}
+
+.mind-mapping{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width:100%;
+  text-align: center;
+
+}
+.mindmapping{
+  padding: 5% 18%;
+  width:80%;
+  text-align: center;
+
+}
+.imgresearch{
+  width:30%;
+}
+.table{
+  text-align: center;
+  cellspacing:30;
+  margin-top: 5%;
+
+
+
+}
+.td{
+
+  border-bottom: 1px solid #ddd;
+}
+.imgflow{
+  width: 100%;
+  padding: 5% 15%;
+}
+.protoimg{
+  text-align: center;
+  padding:5% 0;
+  vertical-align:middle;
+  position: relative;
+  margin: 0 18%;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+}
+.prototyping{
+  padding: 0 18%;
+  text-align: center;
+
+}
+
+.chefworkflow{
+  width: 80%;
+  text-align: center;
+  padding: 5% 0%;
+}
+.profile{
+  text-align: center;
+}
+.photo{
+  width:140px;
+  height:auto;
+  border-radius: 200px;
+
+}
+.short-img1{
+  margin-top: 8%;
+
+
+}
+.span-1-of-2{
+  width: 49.2%;
+}
+.vertical-center{
+  text-align: center;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+
+}
+.col{
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  vertical-align: middle;
+}
+.namelab{
+margin-top: 20px;
+}
+.dialog{
+  margin-bottom: 5%;
+  overflow: auto;
+  zoom:1;
+}
+.dialogPart{
+  padding: 5% 15% 0;
+
+
+}
+.comment{
+  font-size: 15px;
+  text-align: left;
+  line-height: 30px;
+  margin: 5% 0;
+
+}
+.namelab{
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.comment2{
+
+  padding-bottom: 3%;
+}
+.modal-content{
+  animation: zoom;
+  animation-duration: 0.6s;
+  margin: auto;
+  display: block;
+  max-width: 95%;
+}
+.myImg{
+  cursor: pointer;
+}
+.responsive{
+  display:inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+/* .short-img{
+  max-width: 90%;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+} */
+
+/* features sections */
+#features{
+  background-color: #fff;
+  position: relative;
+  padding: 7% 15%;
+}
+
+.feature-box{
+
+  text-align: center;
+  padding: 5%;
+
+  /* position: relative; */
+
+}
+.meimage{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 5% 10% 10% 10%;
+}
+.intro{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 0 5%;
+
+}
+.me{
+  width: 100%;
+  height: auto;
+  padding:5% 0 ;
+  border-radius: 700px
+
+}
+.introduction{
+  text-align:left;
+  font-size: 18px;
+
+}
+.conclusion{
+  background-color: #eee;
+}
+.conclusion-title{
+  padding: 1%;
+}
+.conclusion-p{
+  padding: 3% 10% 0;
+}
+.blue{
+  color: #716F81;
+  font-weight: bold;
+  padding: 0 10%;
+}
+.conclusion-p2{
+  padding: 0 10% 3%;
+}
+
+
+@media(max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+@media (min-width:100px) {
+  #prototype{
+    text-align: center;
+  }
+@media (max-width: 767px) {
+  h2{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 30px
+  }
+  .delicious{
+    width: 60%;
+    margin-left: 10%;
+    padding-bottom: 10%;
+
+  }
+  .imgresearch{
+    width:80%;
+  }
+  .mindmapping{
+    width:100%;
+    padding: 5% 10%;
+  }
+  .research_workflow{
+    padding: 5% 10%;
+    width:100%;
+
+  }
+  .conclusion-p{
+    font-size: 10px;
+  }
+  /* .me{
+    width: 20rem;
+    padding:5% 0 ;
+    border-radius: 700px
+
+  } */
+  .introduction{
+    text-align:left;
+    font-size: 15px;
+  }
+  .meimage{
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    padding: 5% 8%;
+  }
+
+  .mainimg{
+    text-align: center;
+    margin-top: 50px;
+    padding-right: 15px;
+    right: 50px;
+
+    }
+
+}
+
+/* foot section */
+
+#footer{
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+.footer-text{
+  margin: 2% 3% 5% 0%;
+  text-align: center;
+}
+.sign{
+  margin-bottom: 0;
+  padding: 5% 3% 0 0;
+}
+
+/* ----------------------------------------------- */
+
+.myImg {
+    cursor: pointer;
+    /*    transition: 0.3s;*/
+}
+
+/*.myImg:hover {opacity: 0.7;}*/
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(255, 255, 255);
+    /* Fallback color */
+    background-color: rgb(255, 255, 255);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 95%;
+}
+
+.caption {
+    margin: 15px auto;
+    display: block;
+    width: 50%;
+    font-size: 120%;
+    max-width: 400px;
+    text-align: center;
+    color: #555;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+
+.modal-content,
+.caption {
+    -webkit-animation-name: zoom;
+    animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+
+.close {
+    position: fixed;
+    top: 15px;
+    right: 35px;
+    color: #555;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #F2784B;
+    text-decoration: none;
+    cursor: pointer;
+}
