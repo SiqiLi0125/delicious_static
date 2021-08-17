@@ -425,13 +425,13 @@ margin-top: 20px;
     line-height: 30px
   }
   .delicious{
-    width: 60%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 0%;
     padding-bottom: 10%;
 
   }
   .imgresearch{
-    width:80%;
+    width:50%;
   }
   .mindmapping{
     width:100%;
@@ -466,7 +466,7 @@ margin-top: 20px;
     text-align: center;
     margin-top: 50px;
     padding-right: 15px;
-    right: 50px;
+    right: 8px;
 
     }
 
