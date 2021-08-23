@@ -1,7 +1,6 @@
 
 body{
   font-family: 'Montserrat';
-  margin: 20px;
 
   /* overflow-x: hidden; */
 }
@@ -88,14 +87,18 @@ p{
   } */
 
 .container-fluid{
-  padding:2% 15% 1%;
+  margin:2% 0 1%;
+  padding: 0 15% 0;
+  background-color: #fff;
 
 }
 
 
 /* navigation Bar */
+
 .navbar{
-  padding: 0 0 4.5rem;
+  margin: 0 0 4.5rem;
+  background-color: #fff;
 }
 .navbar-portfolio{
   padding:0;
@@ -107,8 +110,12 @@ p{
   letter-spacing: 3px;
   /* text-shadow: 0 0 70px #FF9A3C; */
 
+}
 
-
+.navbar, .container-fluid{
+  position:sticky;
+  top:0;
+  z-index: 10;
 }
 
 .navbar-brand{
