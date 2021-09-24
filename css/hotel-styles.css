@@ -1,0 +1,115 @@
+#prototype {
+  background-color: #fff;
+  color: #aaaaaa;
+}
+.hotel{
+  width: 100%;
+
+}
+.blodtext {
+  text-align: left;
+  font-weight: bold;
+  color: #6B7AA1;
+}
+.imgresearch-h {
+  width:100%;
+}
+.h-mindmapping{
+  padding: 5% 10%;
+  width: 100%;
+}
+.h-img{
+  width: 70%;
+  padding: 10% 10% 0 10%;
+  text-align: center;
+}
+.workflow{
+  line-height: 40px;
+  font-size: 20px;
+}
+.hotelimg{
+  width: 100%;
+  margin: 5% 0;
+}
+.hresearch{
+  width:100%;
+  padding: 10%;
+}
+.hotel-main-img{
+  vertical-align: middle;
+  margin-top: 10%;
+  position: relative;
+  left:2%;
+}
+.hmainimg{
+  text-align: left;
+  width:600px;
+  vertical-align: middle;
+  position:relative;
+  left:-20%;
+}
+.hotel-text{
+  text-align:right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    size:3.5rem;
+    line-height: 1.5;
+    font-size: 45px;
+    margin-top: 100px;
+    /* text-shadow: 2px 2px #ff0000; */
+    letter-spacing: 2px;
+    text-shadow: 0 0 200px #182952;
+    padding-right: 1%;
+}
+.h-button:hover{
+    background-color: #145374;
+    box-shadow: 0px 15px 20px rgba(177,190,213,1);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.h-button{
+  width: 300px;
+  height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 1000;
+  color: #aaa;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-right: 0px;
+  margin-top:10%;
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+}
+
+@media (max-width:1028px){
+  .row {
+    display:flex;
+    flex-direction:row-reverse;
+  }
+.hotel{
+  text-align: center;
+}
+.hmainimg{
+  margin-left: 22%;
+}
+.hotel-text{
+  margin-right: 27%;
+}
+.h-button{
+  margin-right: 27%;
+}
+.rowh{
+   display: flex;
+    flex-flow: column-reverse;
+     }
