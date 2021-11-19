@@ -84,3 +84,15 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+@media (max-width:1028px){
+  .gimg-full{
+    margin-top: 10%;
+  }
+  .imgresearch-g{
+    width:10vh;
+    margin: 0 18%;
+  }
+  .imgresearch-g1{
+    width:20vh;
+  }
+}
